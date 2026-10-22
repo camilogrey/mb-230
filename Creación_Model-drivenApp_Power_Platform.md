@@ -30,3 +30,7 @@ FASE 1 CONFIGURACION
 
 FASE 2
 
+Creación y activación de la cuenta y licencia:Verificamos tu usuario (camilo@m365x44950794.onmicrosoft.com) y aseguramos que tuviera asignada la licencia de Office 365 E5, lo cual aprovisionó automáticamente el buzón de Exchange Online.Aprobación del buzón en Power Platform:Ingresamos al Centro de administración de Power Platform y a la configuración avanzada para aprobar el correo electrónico del buzón y establecer la fecha de inicio del procesamiento de mensajes.Prueba y habilitación de la sincronización:Ejecutamos la opción de Probar y habilitar buzón para configurar los métodos de sincronización mediante el servidor de Exchange Online, eliminando cualquier bloqueo de estado "desconectado".Configuración de la App for Outlook:Accedimos al recurso de Dynamics 365 App for Outlook dentro de los detalles del entorno (CustomerService Trial), marcamos la opción de agregar automáticamente a los usuarios aptos y guardamos los cambios.   Verificación de la integración:Confirmamos el éxito del proceso al recibir el correo interno de Microsoft con el asunto "Mailbox connected for Camilo #", validando que la infraestructura está lista para rastrear y sincronizar correos y citas desde Outlook.
+
+
+
